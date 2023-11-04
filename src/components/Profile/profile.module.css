@@ -1,0 +1,32 @@
+.profile {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.description {
+  margin: 0;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.stats {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.label {
+  padding-right: 15px;
+}
+
+.quantity {
+}
