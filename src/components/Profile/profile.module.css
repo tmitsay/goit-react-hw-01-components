@@ -1,13 +1,13 @@
 .profile {
-  width: 100%;
+  width: 300px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 70 50px;
 }
 
 .description {
-  margin: 0;
-  /* display: flex;
-  justify-content: center; */
+  margin: 0 auto;
+  padding: 30px;
+  width: 240px;
 }
 
 .avatar {
@@ -22,11 +22,46 @@
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .label {
-  padding-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tag {
+  text-align: center;
+  color: darkgray;
+  margin-bottom: 10px;
+}
+
+.location {
+  text-align: center;
+  color: darkgrey;
 }
